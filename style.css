@@ -18,3 +18,7 @@
 /* Contacto: lectura cómoda y frases completas en celular */
 .contact-mobile{display:none}
 @media(max-width:760px){.contact h2{font-size:clamp(24px,7.7vw,44px);line-height:1.45;letter-spacing:-.035em;margin:48px 0 56px}.contact h2 .contact-desktop{display:none}.contact h2 .contact-mobile{display:block}.contact-mobile>span{display:block;white-space:nowrap}}
+
+/* Una sola frase: cortes adaptables, sin contenido duplicado */
+.contact-break-mobile{display:none}
+@media(max-width:760px){.contact-break-mobile{display:initial}.contact-break-desktop{display:none}.contact h2{font-size:clamp(24px,7.7vw,44px);line-height:1.45;letter-spacing:-.035em;overflow-wrap:normal}}
