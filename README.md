@@ -1,5 +1,9 @@
 # TSS — The Sign Studio
 
-Portafolio web v02. Portada metálica interactiva, proyectos con videos automáticos y fichas superpuestas.
+Portafolio de The Sign Studio: diseño estratégico y experimental para marcas.
 
-Publicar con GitHub Pages: Settings → Pages → Deploy from a branch → main → /(root).
+**Ver el sitio: [https://nicolirat.github.io/TSS/](https://nicolirat.github.io/TSS/)**
+
+La página se puede abrir desde cualquier computador o teléfono, sin descargar archivos ni iniciar sesión en GitHub.
+
+Incluye la firma animada en portada, videos automáticos y proyectos que se abren sobre la página.
