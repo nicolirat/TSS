@@ -14,3 +14,7 @@
 /* Portada metálica interactiva */
 .metallic-hero{background:radial-gradient(ellipse at 50% 38%,#faf9f3 0%,#eeede5 58%,#e1e0d7 100%);overflow:hidden;isolation:isolate}.hero-object{width:100%;height:100%;min-height:0;perspective:1200px;--rx:-8deg;--ry:-15deg;grid-row:auto}.hero-object .sign-sculpture{width:clamp(250px,43vw,690px);transform:rotateX(var(--rx)) rotateY(var(--ry)) rotateZ(-5deg);filter:drop-shadow(18px 35px 18px #0002);z-index:1}.hero-shadow{position:absolute;left:29%;right:29%;height:7%;bottom:16%;background:#57564b;opacity:.18;border-radius:50%;filter:blur(22px);transform:rotate(-5deg)}
 @media(max-width:760px){.metallic-hero{height:58svh;min-height:380px}.hero-object .sign-sculpture{width:66vw;max-width:440px}.hero-shadow{left:20%;right:20%;bottom:22%}}
+
+/* Contacto: lectura cómoda y frases completas en celular */
+.contact-mobile{display:none}
+@media(max-width:760px){.contact h2{font-size:clamp(24px,7.7vw,44px);line-height:1.45;letter-spacing:-.035em;margin:48px 0 56px}.contact h2 .contact-desktop{display:none}.contact h2 .contact-mobile{display:block}.contact-mobile>span{display:block;white-space:nowrap}}
