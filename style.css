@@ -35,3 +35,6 @@
 
 /* More breathing room for project headings that wrap across lines. */
 .detail-title[data-project-key="lt"],.detail-title[data-project-key="udd"],.detail-title[data-project-key="liquid"]{line-height:1.22}
+
+/* Mobile project titles: readable scale and generous line spacing. */
+@media(max-width:760px){.detail-title[data-project-key="lt"],.detail-title[data-project-key="udd"],.detail-title[data-project-key="liquid"]{clear:both;font-size:clamp(27px,8.2vw,42px);line-height:1.35;letter-spacing:-.035em;overflow-wrap:anywhere;margin:32px 0 28px;max-width:100%}}
