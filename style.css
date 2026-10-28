@@ -15,18 +15,20 @@
 .metallic-hero{background:radial-gradient(ellipse at 50% 38%,#faf9f3 0%,#eeede5 58%,#e1e0d7 100%);overflow:hidden;isolation:isolate}.hero-object{width:100%;height:100%;min-height:0;perspective:1200px;--rx:-8deg;--ry:-15deg;grid-row:auto}.hero-object .sign-sculpture{width:clamp(250px,43vw,690px);transform:rotateX(var(--rx)) rotateY(var(--ry)) rotateZ(-5deg);filter:drop-shadow(18px 35px 18px #0002);z-index:1}.hero-shadow{position:absolute;left:29%;right:29%;height:7%;bottom:16%;background:#57564b;opacity:.18;border-radius:50%;filter:blur(22px);transform:rotate(-5deg)}
 @media(max-width:760px){.metallic-hero{height:58svh;min-height:380px}.hero-object .sign-sculpture{width:66vw;max-width:440px}.hero-shadow{left:20%;right:20%;bottom:22%}}
 
-/* Contacto: lectura cómoda y frases completas en celular */
 .contact-mobile{display:none}
 @media(max-width:760px){.contact h2{font-size:clamp(24px,7.7vw,44px);line-height:1.45;letter-spacing:-.035em;margin:48px 0 56px}.contact h2 .contact-desktop{display:none}.contact h2 .contact-mobile{display:block}.contact-mobile>span{display:block;white-space:nowrap}}
 
-/* Una sola frase: cortes adaptables, sin contenido duplicado */
 .contact-break-mobile{display:none}
 @media(max-width:760px){.contact-break-mobile{display:initial}.contact-break-desktop{display:none}.contact h2{font-size:clamp(24px,7.7vw,44px);line-height:1.45;letter-spacing:-.035em;overflow-wrap:normal}}
 
-/* Retícula original: dos columnas; Il Fuogo continúa debajo de Lira & Tuckermann */
+/* Retícula de dos columnas; Il Fuogo continúa en la izquierda */
 .p8{grid-column:1/7}.p9{grid-column:7/13}.p10{grid-column:1/7;margin:0}.p8 .media{aspect-ratio:4/5}.p9 .media{aspect-ratio:16/9}.p10 .media{aspect-ratio:4/3}.p10 .media img{object-position:center}
 @media(max-width:760px){.p8,.p9,.p10{grid-column:1}}
 
-/* Il Fuogo ocupa el espacio bajo UDD, junto al proyecto vertical de Lira */
 @media(min-width:761px){.p8{grid-column:1/7;grid-row:5 / span 2}.p9{grid-column:7/13;grid-row:5}.p10{grid-column:7/13;grid-row:6}.project-grid{grid-auto-rows:min-content}}
 @media(max-width:760px){.p8,.p9,.p10{grid-row:auto}}
+
+/* Liquid cierra la selección a todo el ancho, como Cauye */
+.p11{grid-column:1/-1;margin:0}.p11 .media{aspect-ratio:16/9}
+@media(min-width:761px){.p11{grid-row:7}}
+@media(max-width:760px){.p11{grid-column:1;grid-row:auto}}
