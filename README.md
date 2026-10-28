@@ -2,7 +2,7 @@
 
 Portafolio de The Sign Studio: diseño estratégico y experimental para marcas.
 
-**Ver el sitio: [https://nicolirat.github.io/TSS/](https://nicolirat.github.io/TSS/)**
+**Ver el sitio: [https://nicolirat.github.io/TSS/?v=fuogo-bajo-udd](https://nicolirat.github.io/TSS/?v=fuogo-bajo-udd)**
 
 La página se puede abrir desde cualquier computador o teléfono, sin descargar archivos ni iniciar sesión en GitHub.
 
