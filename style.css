@@ -23,10 +23,6 @@
 .contact-break-mobile{display:none}
 @media(max-width:760px){.contact-break-mobile{display:initial}.contact-break-desktop{display:none}.contact h2{font-size:clamp(24px,7.7vw,44px);line-height:1.45;letter-spacing:-.035em;overflow-wrap:normal}}
 
-/* Integrar Il Fuogo en la última fila del portafolio */
-.p9{grid-column:1/7}.p10{grid-column:7/13;margin:0}.p9 .media,.p10 .media{aspect-ratio:4/3}.p10 .media img{object-position:center}
-@media(max-width:760px){.p9,.p10{grid-column:1}.p9 .media{aspect-ratio:16/9}.p10 .media{aspect-ratio:4/3}}
-
-/* Cierre conjunto: Lira & Tuckermann, UDD e Il Fuogo comparten fila */
-.p8{grid-column:1/5}.p9{grid-column:5/9}.p10{grid-column:9/13}.p8 .media,.p9 .media,.p10 .media{aspect-ratio:4/5}
-@media(max-width:760px){.p8,.p9,.p10{grid-column:1}.p9 .media{aspect-ratio:16/9}.p10 .media{aspect-ratio:4/3}}
+/* Retícula original: dos columnas; Il Fuogo continúa debajo de Lira & Tuckermann */
+.p8{grid-column:1/7}.p9{grid-column:7/13}.p10{grid-column:1/7;margin:0}.p8 .media{aspect-ratio:4/5}.p9 .media{aspect-ratio:16/9}.p10 .media{aspect-ratio:4/3}.p10 .media img{object-position:center}
+@media(max-width:760px){.p8,.p9,.p10{grid-column:1}}
