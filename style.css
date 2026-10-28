@@ -32,3 +32,6 @@
 .p11{grid-column:1/-1;margin:0}.p11 .media{aspect-ratio:16/9}
 @media(min-width:761px){.p11{grid-row:7}}
 @media(max-width:760px){.p11{grid-column:1;grid-row:auto}}
+
+/* More breathing room for project headings that wrap across lines. */
+.detail-title[data-project-key="lt"],.detail-title[data-project-key="udd"],.detail-title[data-project-key="liquid"]{line-height:1.22}
